@@ -628,3 +628,11 @@ footer .logo{margin: 0;}
       letter-spacing: 0.04em;
       color: var(--light-gray-color);}
 .modal-fill{margin-bottom: 8px;}
+
+
+/*ADAPTATION*/
+
+
+@media screen and (min-width: 428px) {
+    
+}
