@@ -643,5 +643,9 @@ footer .logo{margin: 0;}
 
 
 @media screen and (min-width: 426px) {
-    
+    .container{width: 448px;}
+}
+@media screen and (min-width: 766px) {
+    .container{width: 720px;}
+    .sec-four-list{width: calc((100% - 24px) / 2);}
 }
