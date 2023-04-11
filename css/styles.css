@@ -102,7 +102,8 @@ body {
         padding-bottom: 188px;}
 .div-one{display: flex;
         flex-direction: column;}
-.container{width: 1158px;
+.container{/*width: 1158px;*/
+            width: 100%;
             padding-right: 15px;
             padding-left: 15px;
             margin-left: auto;
@@ -195,6 +196,7 @@ img{max-width: 100%; height: auto; display: block;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--darker-color);}
+.sec-three-item{width: 100%;}
 
 /*____SECTION FOUR____*/
 
