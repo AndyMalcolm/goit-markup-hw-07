@@ -204,6 +204,8 @@ img{width: 100%; height: auto; display: block;}
 .sec-four{background-color: var(--light-color);
     padding-top: 120px;
     padding-bottom: 120px;}
+.section{padding-top: 96px; 
+         padding-bottom: 96px;}
 .sec-four-item{background-color: var(--white-color);
                 /*width: 264px;*/
                 width: 100%;
@@ -640,6 +642,6 @@ footer .logo{margin: 0;}
 /*ADAPTATION*/
 
 
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 426px) {
     
 }
