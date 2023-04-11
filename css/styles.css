@@ -184,9 +184,10 @@ body {
 
 .sec-three{padding-bottom: 120px;}
 .sec-three-list{gap: 24px;
-    margin: 0;
-    padding: 0;}
-img{max-width: 100%; height: auto; display: block;}
+                flex-wrap: wrap;
+                margin: 0;
+                padding: 0;}
+img{width: 100%; height: auto; display: block;}
 .sec-three-h-two{margin: 0;
     margin-bottom: 72px;
     font-weight: 700;
