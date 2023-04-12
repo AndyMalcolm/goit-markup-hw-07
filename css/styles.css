@@ -643,17 +643,17 @@ footer .logo{margin: 0;}
 
 
 @media screen and (min-width: 428px) {
-    .container{width: 448px;}
+    .container{width: 428px;}
 }
 @media screen and (min-width: 768px) {
-    .container{width: 720px;}
+    .container{width: 768px;}
     .section{top: 96px;
              padding-bottom: 96px;}
              .sec-four-h-two{padding-bottom: 72px;}
     .sec-four-item{width: calc((100% - 24px) / 2);}
 }
 @media screen and (min-width: 1158px) {
-    .container{width: 1200px;}
+    .container{width: 1158px;}
     .section{padding-bottom: 120px;
              top: 120px;}
     .sec-four-item{width: calc((100% - 72px) / 4);}
