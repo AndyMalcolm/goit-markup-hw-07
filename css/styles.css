@@ -245,8 +245,7 @@ img{width: 100%; height: auto; display: block;}
 .sec-four-block{padding-top: 32px; padding-bottom: 32px;}
 .workers-soc-list{display: flex;
                   justify-content: center;
-                  gap: 24px;
-                  width: 100%;}
+                  gap: 24px;}
 .workers-soc-item{width: 40px;
                   height: 40px;}
 .workers-soc-link{width: 100%;
@@ -655,7 +654,8 @@ footer .logo{margin: 0;}
 }
 @media screen and (min-width: 768px) {
     .container{width: 768px;}
-    .workers-soc-list{justify-content: space-evenly;}
+    .workers-soc-list{justify-content: space-evenly;
+    }
     .sec-two-li{width: calc((100% - 24px) / 2);}
     .sec-two-list{flex-wrap: wrap;}
     .section{top: 96px;
