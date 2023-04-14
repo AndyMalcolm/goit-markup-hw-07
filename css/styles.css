@@ -173,7 +173,7 @@ body {
          height: 112px;
          background-color: var(--light-color);
          margin-bottom: 8px;
-         display: flex;
+         display: none;
          align-items: center;
          justify-content: center;
          border-radius: 4px;}
@@ -644,17 +644,22 @@ footer .logo{margin: 0;}
 
 @media screen and (min-width: 428px) {
     .container{width: 428px;}
+    .workers-soc-list{gap: 24px;}
 }
 @media screen and (min-width: 768px) {
     .container{width: 768px;}
+    .workers-soc-list{display: flex;
+        justify-content: center;
+        gap: 24px;}
     .section{top: 96px;
              padding-bottom: 96px;}
-             .sec-four-h-two{padding-bottom: 72px;}
+             /*.sec-four-h-two{padding-bottom: 72px;}*/
     .sec-four-item{width: calc((100% - 24px) / 2);}
 }
 @media screen and (min-width: 1158px) {
     .container{width: 1158px;}
-    .section{padding-bottom: 120px;
-             top: 120px;}
+    .section{top: 120px;
+             padding-bottom: 120px;}
+    .div-two{display: flex;}
     .sec-four-item{width: calc((100% - 72px) / 4);}
 }
