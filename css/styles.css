@@ -156,7 +156,8 @@ body {
 .sec-two-list{gap: 24px;
               padding: 0; 
               margin: 0;}
-.sec-two-li{width: calc((100% - 72px) / 4);}
+.sec-two-li{/*width: calc((100% - 72px) / 4);*/
+            width: 100%;}
 .sec-two-item{padding: 0;margin: 0 auto;
     margin-bottom: 8px;
     font-weight: 500;
@@ -645,12 +646,14 @@ footer .logo{margin: 0;}
 @media screen and (min-width: 428px) {
     .container{width: 428px;}
     .workers-soc-list{gap: 24px;}
+    .sec-two-li{width: calc((100% - 24px) / 2);}
 }
 @media screen and (min-width: 768px) {
     .container{width: 768px;}
     .workers-soc-list{display: flex;
         justify-content: center;
         gap: 24px;}
+    .sec-two-li{width: calc((100% - 24px) / 2);}
     .section{top: 96px;
              padding-bottom: 96px;}
              /*.sec-four-h-two{padding-bottom: 72px;}*/
