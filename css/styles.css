@@ -648,7 +648,8 @@ footer .logo{margin: 0;}
 
 @media screen and (min-width: 428px) {
     .container{width: 428px;}
-    .workers-soc-list{justify-content: space-evenly;}
+    .workers-soc-list{justify-content: space-evenly;
+                      }
     .sec-two-li{width: calc((100% - 24px) / 2);}
     .sec-two-list{flex-wrap: wrap;}
 }
