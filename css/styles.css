@@ -55,7 +55,8 @@ body {
     position: absolute;
     border-radius: 2px;
     bottom: -7px;}
-.header-div{display: flex;}
+.hmhm{display: none;}
+.header-div{/*display: flex;*/ display: flex;}
 .header-list{gap: 40px;
              margin: 0; padding: 0;}
 .header-nav{display: flex;
@@ -647,10 +648,11 @@ footer .logo{margin: 0;}
 
 
 @media screen and (min-width: 428px) {
+    .header-group{}
     .container{width: 428px;}
     .workers-soc-list{justify-content: space-evenly;
                       }
-    .sec-two-li{width: calc((100% - 24px) / 2);}
+    .sec-two-li{width: calc((100% - 72px) / 4);}
     .sec-two-list{flex-wrap: wrap;}
     .sec-three{padding-bottom: 120px; display: none;}
 .sec-three-list{gap: 24px;
