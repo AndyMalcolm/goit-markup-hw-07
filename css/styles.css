@@ -739,7 +739,7 @@ img{width: 100%; height: auto; display: block;}
     .div-two{display: flex;}
     .sec-four-item{width: calc((100% - 72px) / 4);}
     .workers-soc-list{justify-content: center;}
-.sec-three{padding-bottom: 120px;}
+.sec-three{padding-bottom: 120px; display: block;}
 .sec-three-list{gap: 24px;
                 flex-wrap: wrap;
                 margin: 0;
