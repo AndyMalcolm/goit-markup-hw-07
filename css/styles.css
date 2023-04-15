@@ -649,10 +649,18 @@ footer .logo{margin: 0;}
 
 @media screen and (min-width: 428px) {
     .container{width: 428px;}
-    .workers-soc-list{justify-content: space-evenly;
-                      }
-    .sec-two-li{width: calc((100% - 72px) / 4);}
+    .workers-soc-list{justify-content: space-evenly;}
+    .sec-two-li{width: calc((100% - 72px) / 1);}
     .sec-two-list{flex-wrap: wrap;}
+    .sec-two-item{font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;}
+    .sec-two-text{font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;}
     .sec-three{padding-bottom: 120px; display: none;}
 .sec-three-list{gap: 24px;
                 flex-wrap: wrap;
@@ -689,10 +697,18 @@ img{width: 100%; height: auto; display: block;}
 
 @media screen and (min-width: 768px) {
     .container{width: 768px;}
-    .workers-soc-list{justify-content: space-evenly;
-    }
+    .workers-soc-list{justify-content: space-evenly;}
     .sec-two-li{width: calc((100% - 24px) / 2);}
     .sec-two-list{flex-wrap: wrap;}
+    .sec-two-item{font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;}
+    .sec-two-text{font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;}
     .section{top: 96px;
              padding-bottom: 96px;}
              /*.sec-four-h-two{padding-bottom: 72px;}*/
@@ -734,6 +750,14 @@ img{width: 100%; height: auto; display: block;}
 @media screen and (min-width: 1158px) {
     .container{width: 1158px;}
     .sec-two-list{flex-wrap: nowrap;}
+    .sec-two-item{font-weight: 500;
+            letter-spacing: 0.02em;
+            font-size: 20px;
+            line-height: 1.2;}
+    .sec-two-text{font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;}
     .section{top: 120px;
              padding-bottom: 120px;}
     .div-two{display: flex;}
