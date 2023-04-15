@@ -743,16 +743,18 @@ img{width: 100%; height: auto; display: block;}
 .sec-three-list{gap: 24px;
                 flex-wrap: wrap;
                 margin: 0;
+                display: flex;
                 padding: 0;}
 .sec-three-h-two{margin: 0;
     margin-bottom: 72px;
     font-weight: 700;
+    display: block;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--darker-color);}
-.sec-three-item{width: 100%;}
+.sec-three-item{width: 360px; height: 300px;}
 img{width: 100%; height: auto; display: block;}
 }
