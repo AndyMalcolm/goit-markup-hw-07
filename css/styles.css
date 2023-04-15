@@ -55,11 +55,11 @@ body {
     position: absolute;
     border-radius: 2px;
     bottom: -7px;}
-.hmhm{display: none;}
-.header-div{/*display: flex;*/ display: flex;}
+.header-div{display: flex;}
 .header-list{gap: 40px;
              margin: 0; padding: 0;}
-.header-nav{display: flex;
+.header-nav{/*display: flex;*/
+            display: none;
             align-items: center;
             padding-top: 24px;
             padding-bottom: 24px;}
@@ -69,10 +69,12 @@ body {
                  flex-wrap: wrap;}
 .header-contacts:hover, .header-contacts:focus{color: var(--violet-color);}
 .header-add{list-style: none;
+            display: none;
             font-style: normal; 
             margin-left: 332px; 
             padding-top: 24px; 
             padding-bottom: 24px;}
+.header-menu{fill: var(--darker-color);}
 .header-mail{margin-right: 40px;
     font-size: 16px;
     line-height: 1.5;
@@ -92,11 +94,11 @@ body {
 /*____SECTION ONE____*/
 
 .sec-one{background-color: var(--darker-color);
-        /*background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
+        background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;*/
+        background-size: cover;
         margin-left: auto;
         margin-right: auto;
         width: 1440px;
@@ -697,6 +699,8 @@ img{width: 100%; height: auto; display: block;}
 
 @media screen and (min-width: 768px) {
     .container{width: 768px;}
+    .header-add{display: flex;}
+    .header-nav{display: flex;}
     .workers-soc-list{justify-content: space-evenly;}
     .sec-two-li{width: calc((100% - 24px) / 2);}
     .sec-two-list{flex-wrap: wrap;}
@@ -749,6 +753,8 @@ img{width: 100%; height: auto; display: block;}
 
 @media screen and (min-width: 1158px) {
     .container{width: 1158px;}
+    .header-add{display: flex;}
+    .header-nav{display: flex;}
     .sec-two-list{flex-wrap: nowrap;}
     .sec-two-item{font-weight: 500;
             letter-spacing: 0.02em;
