@@ -171,6 +171,7 @@ body {
     line-height: 1.2;
     color: var(--darker-color);}
 .sec-two-text{margin: 0;padding: 0;
+    max-width: 100%;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -661,6 +662,7 @@ footer .logo{margin: 0;}
         letter-spacing: 0.02em;
         text-transform: capitalize;}
     .sec-two-text{font-weight: 500;
+        max-width: 100%;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;}
@@ -719,6 +721,7 @@ text-align: center;}}
         letter-spacing: 0.02em;
         text-transform: capitalize;}
     .sec-two-text{font-weight: 500;
+        max-width: 100%;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;}
@@ -774,7 +777,8 @@ text-align: center;}}
     .sec-two-text{font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em;}
+        letter-spacing: 0.02em;
+        max-width: 100%;}
     .section{top: 120px;
              padding-bottom: 120px;}
     .div-two{display: flex;}
