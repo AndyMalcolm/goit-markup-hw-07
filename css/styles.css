@@ -654,10 +654,13 @@ footer .logo{margin: 0;}
 
 
 @media screen and (min-width: 428px){
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px) {
-        .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
-            rgba(46, 47, 66, 0.7)), url(../images/mob.jpg)}
-    }
+    .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
+        rgba(46, 47, 66, 0.7)), url(../images/mob.jpg)}
+        @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi), (min-resolution: 2dppi){
+            .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
+        rgba(46, 47, 66, 0.7)), url(../images/mobx2.jpg)}
+        }
     .container{width: 428px;}
     .workers-soc-list{justify-content: space-evenly;}
     .sec-two-li{width: calc((100% - 72px) / 1);}
@@ -717,10 +720,13 @@ text-align: center;}}
 /*ADAPTATION 768*/
 
 @media screen and (min-width: 768px){
-    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px) {
         .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
             rgba(46, 47, 66, 0.7)), url(../images/tabl.jpg)}
-    }
+            @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi), (min-resolution: 2dppi){
+                .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
+            rgba(46, 47, 66, 0.7)), url(../images/tablx2.jpg)}
+            }
     
     .container{width: 768px;}
     .header-add{display: flex;}
