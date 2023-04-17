@@ -798,6 +798,13 @@ text-align: center;}}
 /*ADAPTATION 1158*/
 
 @media screen and (min-width: 1158px) {
+    .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
+        rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg)}
+        @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi), (min-resolution: 2dppi){
+            .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
+        rgba(46, 47, 66, 0.7)), url(../images/people-officex2.jpg)}
+        }
     .container{width: 1158px;}
     .sec-button{margin-top: 50px;}
     .sec-h-one{width: 496px;
