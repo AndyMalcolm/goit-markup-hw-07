@@ -134,7 +134,7 @@ body {
     color: var(--white-color);
     max-width: 150px;
     margin: 0 auto;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     width: 169px;
     height: 56px;
     border: none;
@@ -661,6 +661,12 @@ footer .logo{margin: 0;}
             .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7)), url(../images/mobx2.jpg)}
         }
+    .sec-h-one{text-align: center;
+        width: 320px;
+        font-size: 36px;
+        line-height: 1.1;
+        text-transform: capitalize;}
+    .sec-button{margin-top: 72px;}
     .container{width: 428px;}
     .workers-soc-list{justify-content: space-evenly;}
     .sec-two-li{width: calc((100% - 72px) / 1);}
@@ -727,7 +733,9 @@ text-align: center;}}
                 .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
             rgba(46, 47, 66, 0.7)), url(../images/tablx2.jpg)}
             }
-    
+    .sec-h-one{text-align: center;
+               margin: 0 auto;}
+    .sec-button{margin-top: 36px;}
     .container{width: 768px;}
     .header-add{display: flex;}
     .header-nav{display: flex;}
@@ -785,6 +793,15 @@ text-align: center;}}
 
 @media screen and (min-width: 1158px) {
     .container{width: 1158px;}
+    .sec-button{margin-top: 50px;}
+    .sec-h-one{width: 496px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--white-color);
+        margin: 0 auto;}
     .header-add{display: flex;}
     .header-nav{display: flex;}
     .sec-two-list{flex-wrap: nowrap;}
