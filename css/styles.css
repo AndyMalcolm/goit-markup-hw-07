@@ -733,8 +733,14 @@ text-align: center;}}
                 .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
             rgba(46, 47, 66, 0.7)), url(../images/tablx2.jpg)}
             }
-    .sec-h-one{text-align: center;
-               margin: 0 auto;}
+    .sec-h-one{width: 496px;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--white-color);
+        margin: 0 auto;}
     .sec-button{margin-top: 36px;}
     .container{width: 768px;}
     .header-add{display: flex;}
