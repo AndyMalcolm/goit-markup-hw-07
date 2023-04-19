@@ -653,7 +653,6 @@ footer .logo{margin: 0;}
 /*ADAPTATION 428*/
 
 
-@media screen and (max-width: 428px) {
     .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7))}
     .sec-h-one{text-align: center;}
@@ -673,7 +672,7 @@ footer .logo{margin: 0;}
     .workers-soc-list{display: flex;
                 justify-content: center;
                 gap: 24px;}
-}
+            
 @media screen and (min-width: 428px){
     .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7)), url(../images/mob.jpg)}
