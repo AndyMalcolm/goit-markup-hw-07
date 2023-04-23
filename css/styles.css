@@ -24,7 +24,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    position: relative; padding-bottom: 20px;}
+    position: relative; 
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;}
 .header-link::after{display: block;
                     width: 100%;
                     content: '';
@@ -57,12 +60,13 @@ body {
     bottom: -7px;}
 .header-div{display: flex;}
 .header-list{gap: 40px;
-             margin: 0; padding: 0;}
+             margin: 0; padding: 0;
+             }
 .header-nav{/*display: flex;*/
             display: none;
             align-items: center;
-            padding-top: 24px;
-            padding-bottom: 24px;}
+            /*padding-top: 24px;
+            padding-bottom: 24px;*/}
 .header-contacts{color: var(--gray-color); 
                  font-style: normal;
                  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -71,9 +75,9 @@ body {
 .header-add{list-style: none;
             display: none;
             font-style: normal; 
-            margin-left: 332px; 
-            padding-top: 24px; 
-            padding-bottom: 24px;}
+            /*margin-left: 332px;*/ 
+            /*padding-top: 24px; 
+            padding-bottom: 24px;*/}
 .header-menu{fill: var(--darker-color);
     position: absolute;}
 .header-mail{margin-right: 40px;
@@ -763,7 +767,7 @@ text-align: center;}}
         margin: 0 auto;}
     .sec-button{margin-top: 36px;}
     .container{width: 768px;}
-    .header-add{display: flex;}
+    .header-add{display: flex; margin-left: auto;}
     .header-nav{display: flex;}
     .workers-soc-list{justify-content: space-evenly;}
     .sec-two-li{width: calc((100% - 24px) / 2);}
@@ -835,8 +839,10 @@ text-align: center;}}
         letter-spacing: 0.02em;
         color: var(--white-color);
         margin: 0 auto;}
-    .header-add{display: flex;}
-    .header-nav{display: flex;}
+    .header-add{display: flex; margin-left: 332px;}
+    .header-nav{display: flex;
+        /*padding-top: 24px;
+        padding-bottom: 24px;*/}
     .sec-two-list{flex-wrap: nowrap;}
     .sec-two-item{font-weight: 500;
             letter-spacing: 0.02em;
