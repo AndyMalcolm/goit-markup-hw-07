@@ -120,8 +120,8 @@ body {
         flex-direction: column;}
 .container{/*width: 1158px;*/
             width: 100%;
-            padding-right: 15px;
-            padding-left: 15px;
+            /*padding-right: 15px;
+            padding-left: 15px;*/
             margin-left: auto;
             margin-right: auto;}
 .sec-h-one{width: 496px;
