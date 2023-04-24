@@ -78,9 +78,12 @@ body {
             /*margin-left: 332px;*/ 
             /*padding-top: 24px; 
             padding-bottom: 24px;*/}
-.header-but-menu{display: none;}
+.header-but-menu{display: none;
+                 fill: var(--darker-color);
+                 background: none;
+                 border: none;}
 .header-menu{fill: var(--darker-color);
-    position: absolute;}
+             position: absolute;}
 .header-mail{margin-right: 40px;
     font-size: 16px;
     line-height: 1.5;
@@ -680,6 +683,8 @@ footer .logo{margin: 0;}
             
 @media screen and (min-width: 428px){
     .header-list{display: none;}
+    .header-but-menu{display: flex;}
+    .tipa-logo{}
     .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7)), url(../images/mob.jpg)}
         @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2),
@@ -693,7 +698,8 @@ footer .logo{margin: 0;}
         line-height: 1.1;
         text-transform: capitalize;}
     .sec-button{margin-top: 72px;}
-    .container{width: 428px;}
+    .container{width: 428px;
+    padding-left: 16px; padding-right: 16px;}
     .workers-soc-list{justify-content: space-evenly;}
     .sec-two-li{width: calc((100% - 72px) / 1);}
     .sec-two-list{flex-wrap: wrap;}
@@ -768,7 +774,8 @@ text-align: center;}}
         color: var(--white-color);
         margin: 0 auto;}
     .sec-button{margin-top: 36px;}
-    .container{width: 768px;}
+    .container{width: 768px;
+        padding-left: 16px; padding-right: 16px;}
     .header-add{display: flex; margin-left: auto;}
     .header-nav{display: flex;}
     .header-list{display: flex;}
@@ -832,7 +839,9 @@ text-align: center;}}
             .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7)), url(../images/people-officex2.jpg)}
         }
-    .container{width: 1158px;}
+    .container{width: 1158px; 
+        /*padding-left: 156px; padding-right: 156px;*/
+        margin-left: 156px; margin-right: 156px;}
     .sec-button{margin-top: 50px;}
     .sec-h-one{width: 496px;
         font-weight: 700;
