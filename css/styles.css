@@ -766,6 +766,7 @@ text-align: center;}}
             rgba(46, 47, 66, 0.7)), url(../images/tablx2.jpg)}
             }
     .add-list{display: block;}
+    .header-but-menu{display: none;}
     .sec-h-one{width: 496px;
         font-weight: 700;
         font-size: 56px;
@@ -844,6 +845,7 @@ text-align: center;}}
         /*padding-left: 156px; padding-right: 156px;*/
         margin-left: 156px; margin-right: 156px;}
     .sec-button{margin-top: 50px;}
+    .header-but-menu{display: none;}
     .add-list{display: flex;}
     .sec-h-one{width: 496px;
         font-weight: 700;
