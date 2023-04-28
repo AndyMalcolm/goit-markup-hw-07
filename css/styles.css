@@ -82,8 +82,8 @@ body {
                  fill: var(--darker-color);
                  background: none;
                  border: none;}
-.header-menu{fill: var(--darker-color);
-             position: absolute;}
+.header-menu{position: absolute;
+             stroke: var(--darker-color);}
 .header-mail{margin-right: 40px;
     font-size: 16px;
     line-height: 1.5;
