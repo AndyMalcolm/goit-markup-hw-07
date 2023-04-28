@@ -778,7 +778,9 @@ text-align: center;}}
     .sec-button{margin-top: 36px;}
     .container{width: 768px;
         padding-left: 16px; padding-right: 16px;}
-    .header-add{/*display: flex;*/ margin-left: auto;}
+    .header-add{display: flex; 
+                margin-left: auto;
+                margin-top: 10px;}
     .header-nav{display: flex;}
     .header-list{display: flex;}
     .workers-soc-list{justify-content: space-evenly;}
