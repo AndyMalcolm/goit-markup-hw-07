@@ -83,7 +83,8 @@ body {
                  background: none;
                  border: none;}
 .header-menu{position: absolute;
-             stroke: var(--darker-color);}
+             stroke: var(--darker-color);
+             }
 .header-mail{margin-right: 40px;
     font-size: 16px;
     line-height: 1.5;
