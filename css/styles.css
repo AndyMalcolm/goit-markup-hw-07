@@ -79,7 +79,6 @@ body {
             /*padding-top: 24px; 
             padding-bottom: 24px;*/}
 .header-but-menu{display: none;
-                 fill: var(--darker-color);
                  background: none;
                  border: none;}
 .header-menu{position: absolute;
@@ -685,7 +684,6 @@ footer .logo{margin: 0;}
 @media screen and (min-width: 428px){
     .header-list{display: none;}
     .header-but-menu{display: flex;}
-    .tipa-logo{}
     .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7)), url(../images/mob.jpg)}
         @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2),
