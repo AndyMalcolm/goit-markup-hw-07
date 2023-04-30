@@ -49,7 +49,7 @@ body {
     background-color: var(--violet-color);
     position: absolute;
     border-radius: 2px;
-    bottom: -7px;}
+    bottom: -1px;}
 .stick-port::before{content: ""; 
     width: 66px;
     height: 4px;
@@ -57,7 +57,7 @@ body {
     background-color: var(--violet-color);
     position: absolute;
     border-radius: 2px;
-    bottom: -7px;}
+    bottom: -1px;}
 .header-div{display: flex;}
 .header-list{gap: 40px;
              margin: 0; padding: 0;
