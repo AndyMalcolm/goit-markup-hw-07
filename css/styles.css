@@ -794,7 +794,8 @@ text-align: center;}}
         padding-left: 16px; padding-right: 16px;}
     .header-add{display: flex; 
                 margin-left: auto;
-                margin-top: 10px;}
+                margin-top: 16px;
+                margin-bottom: 16px;}
     .header-nav{display: flex;}
     .header-list{display: flex;}
     .workers-soc-list{justify-content: space-evenly;}
@@ -878,7 +879,10 @@ text-align: center;}}
         letter-spacing: 0.02em;
         color: var(--white-color);
         margin: 0 auto;}
-    .header-add{display: flex; margin-left: auto;}
+    .header-add{display: flex; 
+                margin-left: auto;
+                margin-top: 0;
+                margin-bottom: 0;}
     .header-nav{display: flex;
         /*padding-top: 24px;
         padding-bottom: 24px;*/}
