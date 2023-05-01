@@ -33,7 +33,7 @@ body {
                     content: '';
                     position: absolute;
                     left: 0;
-                    margin-bottom: -7px;
+                    margin-bottom: -1px;
                     bottom: 0;
                     height: 4px;
                     background: var(--violet-color);
@@ -862,7 +862,7 @@ text-align: center;}}
         rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg)}
         @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2),
         (min-resolution: 192dpi), (min-resolution: 2dppi){
-            .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
+    .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7)), url(../images/people-officex2.jpg)}
         }
     .container{width: 1158px; 
