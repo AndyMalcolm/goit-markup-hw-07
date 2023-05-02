@@ -113,8 +113,9 @@ body {
         text-align: center;
         /*background-position: center;*/
         background-size: cover;
-        margin-left: auto;
-        margin-right: auto;
+        /*margin-left: auto;
+        margin-right: auto;*/
+        margin: 0 auto;
         /*width: 100%;*/
         height: 600px;
         background-position: 50% 50%;
@@ -162,7 +163,7 @@ body {
 
 /*____SECTION TWO____*/
 
-.sec-two{padding: 120px 0 120px 0;}
+.sec-two{padding: 120px 0 120px 0; margin: 0 auto;}
 .visually-hidden{position: absolute;
                 width: 1px;
                 height: 1px;
@@ -205,7 +206,7 @@ body {
 
 
 img{width: 100%; height: auto; display: block;}
-.sec-three{padding-bottom: 120px; display: none;}
+.sec-three{padding-bottom: 120px; display: none; margin: 0 auto;}
 .sec-three-list{gap: 24px;
                 flex-wrap: wrap;
                 margin: 0;
@@ -225,7 +226,7 @@ img{width: 100%; height: auto; display: block;}
 
 .sec-four{background-color: var(--light-color);
     padding-top: 120px;
-    padding-bottom: 120px;}
+    padding-bottom: 120px;margin: 0 auto;}
 .section{padding-top: 96px; 
          padding-bottom: 96px;}
 .sec-four-item{background-color: var(--white-color);
@@ -282,7 +283,7 @@ img{width: 100%; height: auto; display: block;}
 /*____SECTION FIVE____*/
 
 .sec-five{padding-top: 120px;
-          padding-bottom: 120px;}
+          padding-bottom: 120px;margin: 0 auto;}
 .sec-five-h-two{margin: 0;
     margin-bottom: 72px;
     font-weight: 700;
