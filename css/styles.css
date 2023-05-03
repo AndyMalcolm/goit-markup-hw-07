@@ -870,11 +870,12 @@ text-align: center;}}
         }
     .sec-one{width: 1400px;}
     .container{width: 1158px; 
+        margin: 0 auto;
         /*padding-left: 156px; padding-right: 156px;*/
-        margin-left: 156px; margin-right: 156px;}
+        /*margin-left: 156px; margin-right: 156px;*/}
     .sec-button{margin-top: 50px;}
     .header-but-menu{display: none;}
-    .add-list{display: flex;}
+    .add-list{display: flex;} 
     .sec-h-one{width: 496px;
         font-weight: 700;
         font-size: 56px;
