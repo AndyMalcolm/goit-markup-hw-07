@@ -950,4 +950,6 @@ img{width: 100%; height: auto; display: block;}
     letter-spacing: 0.02em;}
 .footer-sub{margin-left: 80px;}
 .customer-link{width: 168px;}
+.footer{padding-left: 0;}
+.footer-soc-div{margin-left: 120px;}
 }
