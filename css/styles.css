@@ -758,12 +758,10 @@ img{width: 100%; height: auto; display: block;}
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
     .footer-div{flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
-        text-align: center;}
+        justify-content: center;}
 .customer-link{width: 190px;}
 .footer-soc-div{align-items: center;
-                justify-content: center;
-                text-align: center;}
+                justify-content: center;}
 .footer-input{width: 398px;}
 }
 
