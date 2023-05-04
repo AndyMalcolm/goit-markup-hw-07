@@ -758,7 +758,7 @@ img{width: 100%; height: auto; display: block;}
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
     .footer-div{flex-wrap: wrap;
         align-items: center;
-        justify-content: center;}
+        /*justify-content: center;*/}
 .customer-link{width: 190px;}
 .footer-soc-div{align-items: center;
                 justify-content: center;}
@@ -860,7 +860,9 @@ img{width: 100%; height: auto; display: block;}
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;}
+    .footer{padding-left: 108px;}
     .footer-sub{margin-left: 0px;}
+    .footer-soc-div{margin-left: 24px;}
     .customer-link{width: 168px;}
     }
 
