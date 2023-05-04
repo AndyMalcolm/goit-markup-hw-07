@@ -763,6 +763,7 @@ img{width: 100%; height: auto; display: block;}
 .footer-soc-div{align-items: center;
                 justify-content: center;}
 .footer-input{width: 398px;}
+.footer-sub{margin-left: 0px;}
 }
 
 /*ADAPTATION 768*/
@@ -859,6 +860,7 @@ img{width: 100%; height: auto; display: block;}
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;}
+    .footer-sub{margin-left: 0px;}
     .customer-link{width: 168px;}
     }
 
@@ -944,5 +946,6 @@ img{width: 100%; height: auto; display: block;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
+.footer-sub{margin-left: 80px;}
 .customer-link{width: 168px;}
 }
