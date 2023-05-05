@@ -771,7 +771,10 @@ img{width: 100%; height: auto; display: block;}
 .footer-soc-div{margin-left: 0px;}
 .subscribe-p{margin-top: 72px;
             text-align: center;}
-.footer-button{}
+.footer-button{margin-top: 16px;}
+.footer .logo{display: flex;
+              justify-content: center;
+              align-items: center;}
 }
 
 /*ADAPTATION 768*/
@@ -878,7 +881,7 @@ img{width: 100%; height: auto; display: block;}
     .footer-soc-div{margin-left: 120px;}
     .footer-div{align-items: flex-start;
                 justify-content: flex-start;}
-    .footer-button{}
+    .footer-button{margin-top: 0;}
     }
 
 /*ADAPTATION 1158*/
@@ -973,5 +976,5 @@ img{width: 100%; height: auto; display: block;}
 .footer-soc-div{margin-left: 120px;}
 .footer-div{align-items: flex-start;
             justify-content: flex-start;}
-.footer-button{}
+.footer-button{margin-top: 0;}
 }
