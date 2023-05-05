@@ -769,6 +769,9 @@ img{width: 100%; height: auto; display: block;}
 .footer-sub{margin-left: 0px;}
 .footer-p{margin-top: 72px; text-align: center;}
 .footer-soc-div{margin-left: 0px;}
+.subscribe-p{margin-top: 72px;
+            text-align: center;}
+.footer-button{}
 }
 
 /*ADAPTATION 768*/
@@ -873,6 +876,7 @@ img{width: 100%; height: auto; display: block;}
     .footer-p{margin: 0;}
     .footer-soc-div{margin-left: 120px;}
     .footer-div{}
+    .footer-button{}
     }
 
 /*ADAPTATION 1158*/
@@ -965,4 +969,5 @@ img{width: 100%; height: auto; display: block;}
 .footer-p{margin: 0;}
 .footer-soc-div{margin-left: 120px;}
 .footer-div{}
+.footer-button{}
 }
