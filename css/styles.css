@@ -688,7 +688,7 @@ footer .logo{margin: 0;}
     outline: none;}
   
   @media (min-width: 768px) {
-    .header-but-menu {
+    .menu-container {
       display: none;}}
   
   .menu-toggle:hover,
