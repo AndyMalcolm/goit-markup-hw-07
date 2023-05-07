@@ -666,6 +666,18 @@ footer .logo{margin: 0;}
 /*WINDOW MENU*/
 
 
+.menu-soc{display: flex;
+          gap: 56px;
+          margin-top: 48px;}
+.menu-li{width: 40px;
+         height: 40px;}
+.menu-link{width: 100%;
+           height: 100%;
+           border-radius: 50%;
+           background-color: var(--brand-color);
+           display: flex;
+           align-items: center;
+           justify-content: center;}
 .{}
 
 
