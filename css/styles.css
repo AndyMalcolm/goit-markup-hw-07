@@ -85,8 +85,7 @@ body {
                  align-items: center;
                  justify-content: center;
                  padding: 0;}
-.header-menu{position: absolute;
-             stroke: var(--darker-color);
+.header-menu{stroke: var(--darker-color);
              margin-left: auto;}
 .header-mail{margin-right: 40px;
     font-size: 16px;
@@ -797,8 +796,8 @@ footer .logo{margin: 0;}
             margin-bottom: 24px;
             }
     .header-list{display: none;}
-    .header-but-menu{display: flex;
-                     }
+    .header-but-menu{display: flex;}
+    header .logo{margin-right: 0;}
     .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7)), url(../images/mob.jpg)}
         @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2),
