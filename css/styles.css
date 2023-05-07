@@ -672,20 +672,18 @@ footer .logo{margin: 0;}
 /*WINDOW MENU FORM SETTINGS*/
 
 
-.menu-toggle {
-    min-height: 40px;
-    min-width: 40px;
-    display: flex;
-    align-items: center;
+.menu-toggle {display: flex;
+    width: 24px; height: 24px;
     justify-content: center;
-  
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
+    align-items: center;
+    margin-left: auto;
+    background-color: var(--lighter-color);
+    opacity: 0.1;
+    border: 1px solid var(--darker-color);
     border-radius: 50%;
-    outline: none;}
+    cursor: pointer;
+    margin-bottom: 24px;}
+.menu-icon{fill: var(--darker-color);}
   
   @media (min-width: 768px) {
     .menu-container {
