@@ -84,7 +84,9 @@ body {
                  margin-left: auto;
                  align-items: center;
                  justify-content: center;
-                 padding: 0;}
+                 padding: 0;
+                 padding-left: 16px;
+                 padding-right: 16px;}
 .header-menu{position: absolute;
              stroke: var(--darker-color);
              margin-left: auto;}
