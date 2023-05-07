@@ -791,7 +791,7 @@ footer .logo{margin: 0;}
                 justify-content: center;
                 gap: 24px;}
             
-@media screen and (min-width: 428px){
+@media screen and (min-width: 420px){
     .header{margin-top: 24px; 
             margin-bottom: 24px;
             }
