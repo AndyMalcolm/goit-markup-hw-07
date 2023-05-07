@@ -894,6 +894,7 @@ img{width: 100%; height: auto; display: block;}
             0px 1px 6px rgba(46, 47, 66, 0.08);
             margin-top: 0; 
             margin-bottom: 0;}
+        header .logo{margin-right: 76px;}
         .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
             rgba(46, 47, 66, 0.7)), url(../images/tabl.jpg)}
             @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2),
@@ -1004,6 +1005,7 @@ img{width: 100%; height: auto; display: block;}
         0px 1px 6px rgba(46, 47, 66, 0.08);
         margin-top: 0; 
         margin-bottom: 0;}
+    header .logo{margin-right: 76px;}
     .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg)}
         @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2),
