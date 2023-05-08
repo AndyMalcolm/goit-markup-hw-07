@@ -754,7 +754,8 @@ footer .logo{margin: 0;}
     .mob-menu-page2:focus{color: var(--violet-color);}
     .mob-menu-page3:focus{color: var(--violet-color);}
 
-    .mobile-contacts{list-style: none;}
+    .mobile-contacts{list-style: none;
+                     padding-inline-start: 0px;}
     .mob-number{font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
