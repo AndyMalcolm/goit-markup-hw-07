@@ -711,9 +711,10 @@ footer .logo{margin: 0;}
     color: var(--brand-color);}
   
   .mobile-menu {
+    
     padding: 0;
     margin: 0;
-    margin-left: 40px;
+    /*margin-left: 40px;*/
     list-style: none;
     margin-bottom: auto;}
   
@@ -722,8 +723,8 @@ footer .logo{margin: 0;}
     color: var(--darker-color);
     text-decoration: none;}
 
-    .mob-menu-page1{padding-top: 32px; 
-                    padding-bottom: 20px;
+    .mob-menu-page1{/*margin-top: 32px; 
+                    margin-bottom: 20px;*/
                     font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 700;
@@ -731,8 +732,8 @@ footer .logo{margin: 0;}
                     line-height: 1.1;
                     letter-spacing: 0.02em;
                     text-transform: capitalize;}
-    .mob-menu-page2{padding-top: 20px; 
-                    padding-bottom: 20px;
+    .mob-menu-page2{/*margin-top: 20px; 
+                    margin-bottom: 20px;*/
                     font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 700;
@@ -740,8 +741,8 @@ footer .logo{margin: 0;}
                     line-height: 1.1;
                     letter-spacing: 0.02em;
                     text-transform: capitalize;}
-    .mob-menu-page3{padding-top: 20px; 
-                    padding-bottom: 0;
+    .mob-menu-page3{/*margin-top: 20px; 
+                    margin-bottom: 0;*/
                     font-family: 'Roboto';
                     font-style: normal;
                     font-weight: 700;
