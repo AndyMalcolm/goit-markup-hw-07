@@ -711,13 +711,6 @@ footer .logo{margin: 0;}
     color: var(--brand-color);}
   
   .mobile-menu {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
     padding: 0;
     margin: 0;
     margin-left: 40px;
@@ -729,9 +722,33 @@ footer .logo{margin: 0;}
     color: var(--darker-color);
     text-decoration: none;}
 
-    .mob-menu-page1{padding-top: 32px; padding-bottom: 20px;}
-    .mob-menu-page2{padding-top: 20px; padding-bottom: 20px;}
-    .mob-menu-page3{padding-top: 20px; padding-bottom: 0;}
+    .mob-menu-page1{padding-top: 32px; 
+                    padding-bottom: 20px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 1.1;
+                    letter-spacing: 0.02em;
+                    text-transform: capitalize;}
+    .mob-menu-page2{padding-top: 20px; 
+                    padding-bottom: 20px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 1.1;
+                    letter-spacing: 0.02em;
+                    text-transform: capitalize;}
+    .mob-menu-page3{padding-top: 20px; 
+                    padding-bottom: 0;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 1.1;
+                    letter-spacing: 0.02em;
+                    text-transform: capitalize;}
     .mob-menu-page1:focus{color: var(--violet-color);}
     .mob-menu-page2:focus{color: var(--violet-color);}
     .mob-menu-page3:focus{color: var(--violet-color);}
