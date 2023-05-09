@@ -839,7 +839,8 @@ footer .logo{margin: 0;}
     padding-right: 16px;}
     .workers-soc-list{justify-content: space-evenly;}
     .sec-two-li{width: calc((100% - 72px) / 1);}
-    .sec-two-list{flex-wrap: wrap;}
+    .sec-two-list{flex-wrap: wrap;
+                  gap: 72px;}
     .sec-two-item{font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
@@ -967,7 +968,8 @@ img{width: 100%; height: auto; display: block;}
                  }
     .workers-soc-list{justify-content: space-evenly;}
     .sec-two-li{width: calc((100% - 24px) / 2);}
-    .sec-two-list{flex-wrap: wrap;}
+    .sec-two-list{flex-wrap: wrap;
+                  gap: 72px 24px;}
     .sec-two-item{font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
