@@ -949,7 +949,8 @@ img{width: 100%; height: auto; display: block;}
                 margin-top: 16px;
                 margin-bottom: 16px;}
     .header-nav{display: flex;}
-    .header-list{display: flex;}
+    .header-list{display: flex;
+                 }
     .workers-soc-list{justify-content: space-evenly;}
     .sec-two-li{width: calc((100% - 24px) / 2);}
     .sec-two-list{flex-wrap: wrap;}
@@ -957,7 +958,10 @@ img{width: 100%; height: auto; display: block;}
         font-size: 36px;
         line-height: 1.1;
         letter-spacing: 0.02em;
-        text-transform: capitalize;}
+        text-transform: capitalize;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;}
     .sec-two-text{font-weight: 500;
         max-width: 356px;
         font-size: 16px;
@@ -1072,7 +1076,10 @@ img{width: 100%; height: auto; display: block;}
     .sec-two-item{font-weight: 500;
             letter-spacing: 0.02em;
             font-size: 20px;
-            line-height: 1.2;}
+            line-height: 1.2;
+            justify-content: flex-start;
+            align-items: flex-start;
+            text-align: left;}
     .sec-five-list{gap: 24px; flex-wrap: nowrap;}
     .sec-two-text{font-weight: 400;
         font-size: 16px;
