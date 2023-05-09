@@ -58,7 +58,7 @@ body {
     position: absolute;
     border-radius: 2px;
     bottom: -1px;}
-.header-div{display: flex;}
+/*.header-div{display: flex;}*/
 .header-list{gap: 40px;
              margin: 0; padding: 0;
              }
@@ -917,8 +917,9 @@ img{width: 100%; height: auto; display: block;}
             0px 2px 1px rgba(46, 47, 66, 0.08), 
             0px 1px 1px rgba(46, 47, 66, 0.16), 
             0px 1px 6px rgba(46, 47, 66, 0.08);
-            margin-top: 0; 
-            margin-bottom: 0;}
+            padding-top: 0; 
+            padding-bottom: 0;
+            height: 72px;}
         header .logo{margin-right: 76px;}
         .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
             rgba(46, 47, 66, 0.7)), url(../images/tabl.jpg)}
@@ -1035,8 +1036,9 @@ img{width: 100%; height: auto; display: block;}
         0px 2px 1px rgba(46, 47, 66, 0.08), 
         0px 1px 1px rgba(46, 47, 66, 0.16), 
         0px 1px 6px rgba(46, 47, 66, 0.08);
-        margin-top: 0; 
-        margin-bottom: 0;}
+        padding-top: 0; 
+        padding-bottom: 0;}
+    .header-div{display: flex;}
     header .logo{margin-right: 76px;}
     .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg)}
