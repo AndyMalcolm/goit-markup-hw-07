@@ -838,7 +838,8 @@ footer .logo{margin: 0;}
     padding-left: 16px; 
     padding-right: 16px;}
     .workers-soc-list{justify-content: space-evenly;}
-    .sec-two-li{width: calc((100% - 72px) / 1);}
+    .sec-two-li{/*width: calc((100% - 72px) / 1);*/
+                width: 100%;}
     .sec-two-list{flex-wrap: wrap;
                   gap: 72px;}
     .sec-two-item{font-weight: 700;
@@ -967,9 +968,12 @@ img{width: 100%; height: auto; display: block;}
     .header-list{display: flex;
                  }
     .workers-soc-list{justify-content: space-evenly;}
-    .sec-two-li{width: calc((100% - 24px) / 2);}
+    .sec-two-li{/*width: calc((100% - 24px) / 2);*/
+                width: 356px;}
     .sec-two-list{flex-wrap: wrap;
-                  gap: 72px 24px;}
+                  gap: 72px 24px;
+                  /*row-gap: 72px;
+                  column-gap: 24px;*/}
     .sec-two-item{font-weight: 700;
         font-size: 36px;
         line-height: 1.1;
