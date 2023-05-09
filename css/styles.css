@@ -920,6 +920,22 @@ img{width: 100%; height: auto; display: block;}
             padding-bottom: 0;
             height: 72px;}
         header .logo{margin-right: 76px;}
+        .header-mail{margin-right: 40px;
+            font-size: 12px;
+            line-height: 1.16;
+            letter-spacing: 0.04em;
+            color: var(--gray-color);
+            padding: 0;
+            margin-bottom: 12px;}
+        .header-number{
+            font-size: 12px;
+            line-height: 1.16;
+            letter-spacing: 0.04em;
+            color: var(--gray-color);
+            text-transform: uppercase;
+            margin-right: 156px;
+            margin: 0;
+            padding: 0;}
         .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
             rgba(46, 47, 66, 0.7)), url(../images/tabl.jpg)}
             @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2),
@@ -946,8 +962,7 @@ img{width: 100%; height: auto; display: block;}
         padding-left: 16px; padding-right: 16px;}
     .header-add{display: flex; 
                 margin-left: auto;
-                margin-top: 16px;
-                margin-bottom: 16px;}
+                margin-top: 16px;}
     .header-nav{display: flex;}
     .header-list{display: flex;
                  }
@@ -1039,6 +1054,21 @@ img{width: 100%; height: auto; display: block;}
         padding-bottom: 0;}
     .header-div{display: flex;}
     header .logo{margin-right: 76px;}
+    .header-mail{margin-right: 40px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--gray-color);
+        padding: 0;}
+    .header-number{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--gray-color);
+        text-transform: uppercase;
+        margin-right: 156px;
+        margin: 0;
+        padding: 0;}
     .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg)}
         @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2),
