@@ -1059,7 +1059,8 @@ img{width: 100%; height: auto; display: block;}
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--gray-color);
-        padding: 0;}
+        padding: 0;
+        margin-bottom: 0;}
     .header-number{
         font-size: 16px;
         line-height: 1.5;
