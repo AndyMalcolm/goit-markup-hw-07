@@ -851,7 +851,6 @@ footer .logo{margin: 0;}
         align-items: center;
         text-align: center;}
     .sec-two-text{font-weight: 500;
-        max-width: 356px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -983,7 +982,6 @@ img{max-width: 100%; height: auto; display: block;}
         align-items: flex-start;
         text-align: left;}
     .sec-two-text{font-weight: 500;
-        max-width: 356px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;}
