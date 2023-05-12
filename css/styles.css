@@ -1024,20 +1024,19 @@ img{max-width: 100%; height: auto; display: block;}
     .footer-input{width: 264px;
                   opacity: 0.3;}
     .subscribe-p{color: var(--white-color);
+        padding-top: 72px;
         margin: 0;
-        padding: 0;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;}
-    .footer{padding-left: 108px;}
+    /*.footer{padding-left: 108px;} вроде не надо*/
     .footer-sub{margin-left: 0px;}
     .footer-soc-div{margin-left: 24px;}
     .customer-link{width: 168px;}
     .footer-form{display: flex;}
-    .footer-p{margin: 0; text-align: left;}
-    .footer-soc-div{margin-left: 120px;}
+    .footer-p{padding: 0; text-align: left;}
     .footer-div{align-items: flex-start;
                 justify-content: flex-start;}
     .footer-button{margin-top: 0;
@@ -1159,7 +1158,7 @@ img{width: 100%; height: auto; display: block;}
 .footer{padding-left: 0;}
 .footer-soc-div{margin-left: 120px;}
 .footer-form{display: flex;}
-.footer-p{margin: 0; text-align: left;}
+.footer-p{padding: 0; text-align: left;}
 .footer-soc-div{margin-left: 120px;}
 .footer-div{align-items: flex-start;
             justify-content: flex-start;}
