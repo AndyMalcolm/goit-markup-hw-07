@@ -897,9 +897,9 @@ img{max-width: 100%; height: auto; display: block;}
 .footer-input{width: 398px;
               opacity: 0.3;}
 .footer-sub{margin-left: 0px;}
-.footer-p{margin-top: 72px; text-align: center;}
+.footer-p{padding-top: 72px; text-align: center;}
 .footer-soc-div{margin-left: 0px;}
-.subscribe-p{margin-top: 72px;
+.subscribe-p{padding-top: 72px;
             text-align: center;}
 .footer-button{margin-top: 16px;
                margin-left: auto;}
