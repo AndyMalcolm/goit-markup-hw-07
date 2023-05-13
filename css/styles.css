@@ -241,7 +241,7 @@ img{width: 100%; height: auto; display: block;}
                 color:  var(--darker-color);
                 margin: 0 auto;
                 margin-bottom: 72px;}
-.sec-four-list{gap: 24px; 
+.sec-four-list{/*gap: 24px;*/ 
                padding: 0; 
                margin: 0;
                display: flex;
@@ -874,6 +874,7 @@ footer .logo{margin: 0;}
     text-transform: capitalize;
     color: var(--darker-color);}
 .sec-three-item{width: 100%;}
+.sec-four-list{gap: 72px;}
 img{max-width: 100%; height: auto; display: block;}
 .workers-soc-list{display: flex;
     justify-content: center;
@@ -1009,6 +1010,7 @@ img{max-width: 100%; height: auto; display: block;}
     text-transform: capitalize;
     color: var(--darker-color);}
 .sec-three-item{width: 100%;}
+.sec-four-list{gap: 64px 24px;}
 .workers-soc-list{display: flex;
     justify-content: center;
     gap: 24px;}
@@ -1125,6 +1127,7 @@ img{max-width: 100%; height: auto; display: block;}
              padding-bottom: 120px;}
     .div-two{display: flex;}
     .sec-four-item{width: calc((100% - 72px) / 4);}
+    .sec-four-list{gap: 24px;}
     .workers-soc-list{justify-content: center;}
 .sec-three{/*padding-bottom: 120px;*/ display: block;}
 .sec-three-list{gap: 24px;
