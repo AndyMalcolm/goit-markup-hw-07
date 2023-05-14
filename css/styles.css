@@ -893,16 +893,17 @@ img{max-width: 100%; height: auto; display: block;}
                 align-items: center;
                 /*justify-content: center;*/
                 justify-content: center;}
+.footer-text{margin-bottom: 72px;}
 .customer-link{width: 190px;}
+.footer-soc{margin-bottom: 72px;}
 .footer-soc-div{align-items: center;
                 justify-content: center;}
 .footer-input{width: 398px;
               opacity: 0.3;}
 .footer-sub{margin-left: 0px;}
-.footer-p{padding-top: 72px; text-align: center;}
+.footer-p{text-align: center;}
 .footer-soc-div{margin-left: 0px;}
-.subscribe-p{padding-top: 72px;
-            text-align: center;}
+.subscribe-p{text-align: center;}
 .footer-button{margin-top: 16px;
                margin-left: auto;}
 .footer .logo{display: flex;
@@ -1036,10 +1037,12 @@ img{max-width: 100%; height: auto; display: block;}
         text-align: left;}
     /*.footer{padding-left: 108px;} вроде не надо*/
     .footer-sub{margin-left: 0px;}
+    .footer-text{margin-bottom: 0;}
     .footer-soc-div{margin-left: 24px;}
+    .footer-soc{margin-bottom: 0;}
     .customer-link{width: 168px;}
     .footer-form{display: flex;}
-    .footer-p{padding: 0; text-align: left;}
+    .footer-p{text-align: left;}
     .footer-div{align-items: flex-start;
                 justify-content: flex-start;}
     .footer-button{margin-top: 0;
@@ -1158,11 +1161,13 @@ img{width: 100%; height: auto; display: block;}
     letter-spacing: 0.02em;
     text-align: left;}
 .footer-sub{margin-left: 80px;}
+.footer-text{margin-bottom: 0;}
 .customer-link{width: 168px;}
 .footer{padding-left: 0;}
 .footer-soc-div{margin-left: 120px;}
 .footer-form{display: flex;}
-.footer-p{padding: 0; text-align: left;}
+.footer-soc{margin-bottom: 0;}
+.footer-p{text-align: left;}
 .footer-soc-div{margin-left: 120px;}
 .footer-div{align-items: flex-start;
             justify-content: flex-start;}
