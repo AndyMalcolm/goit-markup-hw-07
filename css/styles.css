@@ -1184,13 +1184,16 @@ img{width: 100%; height: auto; display: block;}
             margin-right: 0;}
 .footer-text{margin-bottom: 0;}
 .customer-link{width: 168px;}
-.footer{padding-left: 0;}
+.footer{padding-left: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;}
 /*.footer-soc-div{margin-left: 120px;}*/
 .footer-form{display: flex;}
 .footer-soc{margin-bottom: 0;
             justify-content: start;}
 .footer-p{text-align: left;}
-.footer-soc-div{margin-left: 120px;}
+.footer-soc-div{margin-left: 120px;
+                margin-bottom: 0;}
 .footer-div{align-items: flex-start;
             justify-content: flex-start;
             display: flex;}
