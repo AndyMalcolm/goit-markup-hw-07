@@ -228,6 +228,7 @@ img{width: 100%; height: auto; display: block;}
 .sec-four{background-color: var(--light-color);
     padding-top: 120px;
     padding-bottom: 120px;margin: 0 auto;}
+    .sec-four .list{justify-content: center;}
 .section{padding-top: 96px; 
          padding-bottom: 96px;}
 .sec-four-item{background-color: var(--white-color);
@@ -793,7 +794,11 @@ footer .logo{margin: 0;}
     .container{width: 100%;}
     .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7))}
-    .sec-h-one{text-align: center;}
+        .sec-h-one{text-align: center;
+            width: 320px;
+            font-size: 36px;
+            line-height: 1.1;
+            text-transform: capitalize;}
     .sec-two-text{font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;}
