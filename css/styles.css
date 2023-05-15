@@ -346,7 +346,8 @@ footer .logo{margin: 0;}
     justify-content: center;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .footer-link:hover, .footer-link:focus{background-color: var(--green-color);}
-.footer-sub{margin-left: 80px;}
+.footer-sub{margin-left: 80px;
+            margin-right: 0;}
 .subscribe-p{color: var(--white-color);
     margin: 0;
     padding: 0;
@@ -903,7 +904,8 @@ img{max-width: 100%; height: auto; display: block;}
                 justify-content: center;}
 .footer-input{width: 398px;
               opacity: 0.3;}
-.footer-sub{margin-left: 0px;}
+.footer-sub{margin-left: 0px;
+            margin-right: 0;}
 .footer-p{text-align: center;}
 .footer-soc-div{margin-left: 0px;}
 .subscribe-p{text-align: center;}
@@ -965,7 +967,7 @@ img{max-width: 100%; height: auto; display: block;}
         margin: 0 auto;}
     .sec-button{margin-top: 36px;}
     .container{max-width: 768px;
-        padding-left: 16px; padding-right: 16px;}
+               padding-left: 16px; padding-right: 16px;}
     .header-add{display: flex; 
                 margin-left: auto;
                 margin-top: 16px;}
@@ -1039,15 +1041,15 @@ img{max-width: 100%; height: auto; display: block;}
         letter-spacing: 0.02em;
         text-align: left;}
     /*.footer{padding-left: 108px;} вроде не надо*/
-    .footer-sub{margin-left: 0px;}
+    .footer-sub{margin-left: 0px;
+                margin-right: 42px;}
     .footer-text{margin-bottom: 0;}
     .footer-soc-div{margin-left: 24px;}
     .footer-soc{margin-bottom: 0;}
     .customer-link{width: 168px;}
     .footer-form{display: flex;}
     .footer-p{text-align: left;}
-    .footer-div{align-items: flex-start;
-                justify-content: flex-start;}
+    .footer-div{}
     .footer-button{margin-top: 0;
                    margin-left: 24px;}
     .footer .logo{justify-content: flex-start;
@@ -1163,7 +1165,8 @@ img{width: 100%; height: auto; display: block;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;}
-.footer-sub{margin-left: 80px;}
+.footer-sub{margin-left: 80px;
+            margin-right: 0;}
 .footer-text{margin-bottom: 0;}
 .customer-link{width: 168px;}
 .footer{padding-left: 0;}
