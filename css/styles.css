@@ -815,6 +815,7 @@ footer .logo{margin: 0;}
             }
     .header-list{display: none;}
     .header-div{display: flex;}
+    .header-nav{display: flex;}
     .header-but-menu{display: flex;}
     header .logo{margin-right: 0;}
     .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
