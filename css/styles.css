@@ -1042,7 +1042,8 @@ img{max-width: 100%; height: auto; display: block;}
         text-align: left;}
     /*.footer{padding-left: 108px;} вроде не надо*/
     .footer-sub{margin-left: 0px;
-                margin-right: 42px;}
+                margin-right: 42px;
+                /*margin-right: 42px; так?*/}
     .footer-text{margin-bottom: 0;}
     .footer-soc-div{margin-left: 24px;}
     .footer-soc{margin-bottom: 0;}
