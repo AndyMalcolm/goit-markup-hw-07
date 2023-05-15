@@ -928,7 +928,7 @@ img{max-width: 100%; height: auto; display: block;}
             padding-bottom: 0;
             height: 72px;}
         header .logo{margin-right: 76px;}
-        .header-mail{margin-right: 40px;
+        .header-mail{margin-right: 0px;
             font-size: 12px;
             line-height: 1.16;
             letter-spacing: 0.04em;
