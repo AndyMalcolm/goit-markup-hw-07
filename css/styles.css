@@ -293,9 +293,9 @@ img{width: 100%; height: auto; display: block;}
     color: var(--darker-color);}
 .sec-five-list{display: flex;
                justify-content: center;
-               /*gap: 24px;*/
+               gap: 16px 72px;
                flex-wrap: wrap;}
-.customer-link{/*width: 168px;*/
+.customer-link{width: 168px;
                height: 88px;
                border: 1px solid var(--light-gray-color);
                border-radius: 4px;
