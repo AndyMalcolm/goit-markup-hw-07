@@ -809,7 +809,7 @@ footer .logo{margin: 0;}
                 justify-content: center;
                 gap: 24px;}
             
-@media screen and (min-width: /*428px*/ 420px){
+@media screen and (min-width: 428px){
     .header{padding-top: 24px; 
             padding-bottom: 24px;
             }
@@ -835,9 +835,11 @@ footer .logo{margin: 0;}
         line-height: 1.1;
         text-transform: capitalize;}
     .sec-button{margin-top: 72px;}
-    .container{width: 428px;
-    padding-left: 16px; 
-    padding-right: 16px;}
+    .container{max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;}
     .workers-soc-list{justify-content: space-evenly;}
     .sec-two-li{/*width: calc((100% - 72px) / 1);*/
                 width: 100%;}
