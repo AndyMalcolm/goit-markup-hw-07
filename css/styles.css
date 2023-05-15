@@ -78,7 +78,7 @@ body {
             /*margin-left: 332px;*/ 
             /*padding-top: 24px; 
             padding-bottom: 24px;*/}
-.header-but-menu{display: none;
+.header-but-menu{display: flex;
                  background: none;
                  border: none;
                  margin-left: auto;
