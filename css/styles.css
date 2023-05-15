@@ -318,7 +318,7 @@ img{width: 100%; height: auto; display: block;}
     padding-top: 100px;
     padding-bottom: 100px;}
 footer .logo{margin: 0;}
-.footer-text{margin: 0;
+.footer-text{margin: 0 auto;
     margin-top: 18px;
     font-size: 16px;
     line-height: 1.5;
@@ -1057,7 +1057,7 @@ img{max-width: 100%; height: auto; display: block;}
                 /*margin-right: 42px; так?*/}
     .footer-text{margin-bottom: 0;}
     .footer-soc-div{margin-left: 24px;
-                    margin-bottom: 42px;
+                    margin-bottom: 30px;
                 /*margin-bottom: 42px; так?*/}
     .footer-soc{margin-bottom: 0;
                 justify-content: start;}
