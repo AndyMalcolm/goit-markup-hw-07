@@ -925,6 +925,9 @@ img{max-width: 100%; height: auto; display: block;}
                 align-items: center;
                 /*justify-content: center;*/
                 /*justify-content: center;*/
+                /*display: flex;
+                flex-direction: column;
+                gap: 72px;*/
                 }
 .footer-main{margin-bottom: 72px;}
 .customer-link{width: 190px;}
