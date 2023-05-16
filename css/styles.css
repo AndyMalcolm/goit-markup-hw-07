@@ -1025,7 +1025,8 @@ img{max-width: 100%; height: auto; display: block;}
     .section{top: 96px;
              padding-bottom: 96px;}
              /*.sec-four-h-two{padding-bottom: 72px;}*/
-    .sec-four-item{width: calc((100% - 24px) / 2);}
+    .sec-four-item{/*width: calc((100% - 24px) / 2);*/
+                   width: 264px;}
     .sec-three{padding-bottom: 120px; display: none;}
 .sec-three-list{gap: 24px;
                 flex-wrap: wrap;
