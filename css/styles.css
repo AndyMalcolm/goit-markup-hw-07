@@ -129,7 +129,7 @@ body {
             padding-left: 15px;*/
             margin-left: auto;
             margin-right: auto;}
-.sec-h-one{width: 496px;
+.sec-h-one{/*width: 496px;*/
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -809,7 +809,7 @@ footer .logo{margin: 0;}
     .sec-one{background-image: linear-gradient( rgba(46, 47, 66, 0.7),  
         rgba(46, 47, 66, 0.7))}
         .sec-h-one{text-align: center;
-            width: 320px;
+            /*width: 320px;*/
             font-size: 36px;
             line-height: 1.1;
             text-transform: capitalize;}
@@ -852,7 +852,7 @@ footer .logo{margin: 0;}
             padding-top: 112px;
             padding-bottom: 112px;}
     .sec-h-one{text-align: center;
-        width: 320px;
+        /*width: 320px;*/
         font-size: 36px;
         line-height: 1.1;
         text-transform: capitalize;}
