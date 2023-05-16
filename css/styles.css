@@ -925,7 +925,7 @@ img{max-width: 100%; height: auto; display: block;}
             justify-content: center;}
 .footer-soc-div{align-items: center;
                 justify-content: center;}
-.footer-input{width: 398px;
+.footer-input{width: 100%;
               opacity: 0.3;}
 .footer-sub{margin-left: 0px;
             margin-right: 0;}
