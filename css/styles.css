@@ -995,7 +995,8 @@ img{max-width: 100%; height: auto; display: block;}
     .sec-button{margin-top: 36px;}
     .container{max-width: 768px;
                padding-left: 16px; padding-right: 16px;}
-    .footer .container{max-width: 552px;}
+    .footer .container{max-width: 552px;
+                       padding-left: 0;}
     .header-add{display: flex; 
                 margin-left: auto;
                 margin-top: 16px;}
@@ -1226,5 +1227,6 @@ img{width: 100%; height: auto; display: block;}
                margin-left: 24px;}
 .footer .logo{justify-content: flex-start;
               align-items: flex-start;}
-.footer .container{min-width: 1158px;}
+.footer .container{min-width: 1158px;
+                   padding-left: 16px;}
 }
