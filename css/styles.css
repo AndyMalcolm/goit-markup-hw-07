@@ -329,8 +329,8 @@ img{width: 100%; height: auto; display: block;}
 /*____FOOTER____*/
 
 .footer{background-color: var(--darker-color);
-    padding-top: 100px;
-    padding-bottom: 100px;}
+    /*padding-top: 100px;
+    padding-bottom: 100px;*/}
 footer .logo{margin: 0;}
 .footer-text{margin: 0 auto;
     margin-top: 18px;
@@ -1070,6 +1070,8 @@ img{max-width: 100%; height: auto; display: block;}
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;}
+    .footer{padding-top: 96px;
+            padding-bottom: 96px;}
     /*.footer{padding-left: 108px;} вроде не надо*/
     .footer-sub{margin-left: 0px;
                 margin-right: 42px;
