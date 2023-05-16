@@ -1160,6 +1160,7 @@ img{max-width: 100%; height: auto; display: block;}
     .sec-two-list{flex-wrap: nowrap; 
                   flex-direction: row;
                   gap: 24px;}
+    .sec-two-li{width: 264px;}
     .sec-two-item{font-weight: 500;
             letter-spacing: 0.02em;
             font-size: 20px;
