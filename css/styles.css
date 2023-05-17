@@ -836,7 +836,7 @@ footer .logo{margin: 0;}
 @media screen and (max-width: 428px) {
     .menu-soc{gap: 24px;} 
     .mob-number{font-size: 26px;}   
-    .sec-button{margin-top: 24px;}
+    .sec-h-one{font-size: 32px;}
 }
             
 @media screen and (min-width: 320px){
