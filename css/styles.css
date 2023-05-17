@@ -953,7 +953,8 @@ img{max-width: 100%; height: auto; display: block;}
 .modal{width: 392px; 
        height: 576px;
        padding: 16px;}
-.modal-button{margin-right: 8px;}
+.modal-button{margin-right: 8px;    
+              margin-top: 8px;}
 }
 
 /*ADAPTATION 768*/
@@ -1110,7 +1111,8 @@ img{max-width: 100%; height: auto; display: block;}
     .modal{width: 408px;
            min-height: 576px;
            padding: 24px;}
-    .modal-button{margin-right: 0px;}
+    .modal-button{margin-right: 0px;
+                  margin-top: 0;}
     }
 
 /*ADAPTATION 1158*/
@@ -1253,5 +1255,6 @@ img{width: 100%; height: auto; display: block;}
 .modal{width: 408px;
        min-height: 576px;
        padding: 24px;}
-.modal-button{margin-right: 0px;}
+.modal-button{margin-right: 0px;
+              margin-top: 0;}
 }
