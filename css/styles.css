@@ -514,8 +514,8 @@ footer .logo{margin: 0;}
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms linear, visibility 250ms linear;}
-.modal{width: 408px;
-    min-height: 576px;
+.modal{/*width: 408px;
+    min-height: 576px;*/
     background-color: var(--window-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -950,6 +950,7 @@ img{max-width: 100%; height: auto; display: block;}
               justify-content: center;
               align-items: center;}
 .mob-number{font-size: 36px;}
+.modal{width: 392px; height: 576px;}
 }
 
 /*ADAPTATION 768*/
@@ -1103,6 +1104,8 @@ img{max-width: 100%; height: auto; display: block;}
     .footer .logo{justify-content: flex-start;
                   align-items: flex-start;}
     .footer-main{margin-bottom: 0;}
+    .modal{width: 408px;
+           min-height: 576px;}
     }
 
 /*ADAPTATION 1158*/
@@ -1242,4 +1245,6 @@ img{width: 100%; height: auto; display: block;}
 .footer .container{min-width: 1158px;
                    padding-left: 16px;}
 .footer-main{margin-bottom: 0;}
+.modal{width: 408px;
+       min-height: 576px;}
 }
