@@ -1081,7 +1081,7 @@ img{max-width: 100%; height: auto; display: block;}
     .footer-input{width: 264px;
                   opacity: 0.3;}
     .subscribe-p{color: var(--white-color);
-        padding-top: 72px;
+        padding-top: 0px;
         margin: 0;
         font-weight: 500;
         font-size: 16px;
@@ -1093,6 +1093,7 @@ img{max-width: 100%; height: auto; display: block;}
     /*.footer{padding-left: 108px;} вроде не надо*/
     .footer-sub{margin-left: 0px;
                 margin-right: 42px;
+                padding-top: 72px;
                 /*margin-right: 42px; так?*/}
     .footer-text{margin-bottom: 0;}
     .footer-soc-div{margin-left: 24px;
