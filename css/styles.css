@@ -955,6 +955,7 @@ img{max-width: 100%; height: auto; display: block;}
        padding: 16px;}
 .modal-button{margin-right: 8px;    
               margin-top: 8px;}
+/*если будет ошибка с кнопкой закрывания, то топ 8 удалить*/
 }
 
 /*ADAPTATION 768*/
