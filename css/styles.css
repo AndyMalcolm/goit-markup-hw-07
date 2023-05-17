@@ -953,6 +953,7 @@ img{max-width: 100%; height: auto; display: block;}
 .modal{width: 392px; 
        height: 576px;
        padding: 16px;}
+.modal-button{margin-right: 8px;}
 }
 
 /*ADAPTATION 768*/
@@ -1109,6 +1110,7 @@ img{max-width: 100%; height: auto; display: block;}
     .modal{width: 408px;
            min-height: 576px;
            padding: 24px;}
+    .modal-button{margin-right: 0px;}
     }
 
 /*ADAPTATION 1158*/
@@ -1251,4 +1253,5 @@ img{width: 100%; height: auto; display: block;}
 .modal{width: 408px;
        min-height: 576px;
        padding: 24px;}
+.modal-button{margin-right: 0px;}
 }
