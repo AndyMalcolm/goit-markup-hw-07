@@ -843,7 +843,8 @@ footer .logo{margin: 0;}
 
 @media screen and (min-width: 428px) {
     .mob-number{font-size: 36px;}
-    .sec-h-one{font-size: 36px;}
+    .sec-h-one{font-size: 36px;
+                width: 320px;}
 }
 
 @media screen and (min-width: 320px){
